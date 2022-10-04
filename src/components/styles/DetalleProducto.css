@@ -1,0 +1,82 @@
+#mostrarDetalles {
+    height          : 650px;
+    width           : 400px;
+    background-color: darkgray;
+    margin          : 40px auto;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    text-align      : center;
+    padding         : 20px;
+    border-radius   : 30px;
+    box-shadow      : rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#mostrarDetalles>img {
+    object-fit   : contain;
+    margin       : auto;
+    width        : 200px;
+    height       : 200px;
+    border-radius: 20px;
+    margin       : 10px;
+}
+
+.loader__container {
+    background-color: rgb(228, 228, 228);
+    height          : 100vh;
+    width           : 100vw;
+    position        : fixed;
+    transition      : all 1s linear;
+    z-index         : 1000;
+    display         : flex;
+    flex-direction  : column;
+    text-align      : center;
+    justify-content : center;
+    align-items     : center;
+    font-size       : 4rem;
+}
+
+.loader {
+    width              : 150px;
+    height             : 150px;
+    border             : 20px solid red;
+    border-top-color   : white;
+    border-top-style   : groove;
+    border-bottom-color: white;
+    border-bottom-style: groove;
+    border-radius      : 100%;
+    margin             : auto;
+    animation          : girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width:600px) {
+    #mostrarDetalles {
+        height   : fit-content;
+        width    : 90%;
+        font-size: 1rem;
+    }
+
+    #mostrarDetalles>h3 {
+        font-size: 1.4rem;
+    }
+
+    #mostrarDetalles>img {
+        width : 100px;
+        height: 100px;
+    }
+}

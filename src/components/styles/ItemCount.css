@@ -1,0 +1,19 @@
+.contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 20px;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.botones{
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.botonAgregarAlCarrito{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}

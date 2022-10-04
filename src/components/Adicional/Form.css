@@ -1,0 +1,26 @@
+#fullScreen{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formContainer{
+    padding: 20px;
+    background-color: darkgrey;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form>label{
+    margin-bottom: 5px;
+}
+#sendDataUser{
+    margin-top: 40px;
+    border-radius: 7px;
+}

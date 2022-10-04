@@ -1,0 +1,72 @@
+.headerCarrito {
+    margin    : auto;
+    text-align: center;
+}
+
+.itenCardContainer {
+    height         : 150px;
+    width          : 700px;
+    border-radius  : 20px;
+    padding        : 10px;
+    margin         : 20px auto;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    box-shadow     : rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+}
+
+/* --------------------------------------------- */
+.itenCardContainer>:first-child {
+    width          : 20%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.itenCardContainer>div:nth-child(2) {
+    display    : flex;
+    align-items: center;
+    width      : 40%;
+    padding    : 5px;
+
+}
+
+.itenCardContainer>div:nth-child(3) {
+    display    : flex;
+    align-items: center;
+    width      : 10%;
+    padding    : 5px;
+}
+
+.itenCardContainer>div:nth-child(4) {
+    display    : flex;
+    align-items: center;
+    width      : 10%;
+}
+
+.itenCardContainer>div:nth-child(5) {
+    display    : flex;
+    align-items: center;
+    margin     : 0 10px;
+}
+
+.itenCardContainer>button {
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    background-color: grey;
+    width           : 30px;
+    height          : 30px;
+}
+.itenCardContainer>button{
+    height: 50px;
+    margin-left: 10px;
+    padding: 5px;
+    color: white;
+}
+
