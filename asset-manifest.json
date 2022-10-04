@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/proyectofinalCoderExtras/static/css/main.5d8f3b43.css",
+    "main.js": "/proyectofinalCoderExtras/static/js/main.455349a4.js",
+    "static/media/Gabinetes.jpg": "/proyectofinalCoderExtras/static/media/Gabinetes.77580139109542c72416.jpg",
+    "static/media/Memorias.jpg": "/proyectofinalCoderExtras/static/media/Memorias.a79a41011ccc13baaa79.jpg",
+    "static/media/Motherboards.jpg": "/proyectofinalCoderExtras/static/media/Motherboards.3d56eb924f5a3bf28517.jpg",
+    "static/media/Microprocesadores.jpg": "/proyectofinalCoderExtras/static/media/Microprocesadores.f4cc715a51e88e0f6afd.jpg",
+    "static/media/Almacenamiento.jpg": "/proyectofinalCoderExtras/static/media/Almacenamiento.0029ff4e42bbf7594d4b.jpg",
+    "index.html": "/proyectofinalCoderExtras/index.html",
+    "main.5d8f3b43.css.map": "/proyectofinalCoderExtras/static/css/main.5d8f3b43.css.map",
+    "main.455349a4.js.map": "/proyectofinalCoderExtras/static/js/main.455349a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d8f3b43.css",
+    "static/js/main.455349a4.js"
+  ]
+}
