@@ -22,7 +22,7 @@ La página se va a ir recargando a medida de que hagas cambios en el código.
 
 ## Captura
 
-![App Screenshot](https://i.postimg.cc/7YK5Z3Rx/Captura.png)
+![App Screenshot](./src/assets/2022-10-06-21-06-31_1.gif)
 
 
 ## 🚀 Sobre mi.
